@@ -1,4 +1,4 @@
-const Joi = require("joi")
+const Joi = require("joi");
 //register user validation
 const validateAddUser = new Joi.object ( {
 name:Joi.string().min(4).required().max(150),
